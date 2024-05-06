@@ -1,0 +1,137 @@
+body {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: tomato;
+    border-radius: 300px 300px 0 0;
+    border: 2px solid black;
+    width: 400px;
+}
+
+.pokemonForm {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 0 0 250px 250px;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 400px;
+    height: 190px;
+}
+
+#pokemonName {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    width: 150px;
+    height: 35px;
+}
+
+.pokemonForm input {
+    text-align: center;
+}
+
+.pokemonForm button {
+    font-size: 1.25rem;
+    width: 150px;
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.pokemonSprite {
+    width: 150px;
+    height: 150px;
+}
+
+.pokemonForm button:hover {
+    background-color: rgb(174, 168, 168);
+}
+
+.nameDisplay {
+    margin: 0 0 10px 0;
+    color: antiquewhite;
+    font-size: 1.5rem
+    
+}
+
+.pokemonName {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    width: 300px;
+    color: white;
+}
+
+
+.basicContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 500px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.typeDisplay {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 10px;
+}
+
+.abilityDisplay {
+    font-size: 1rem;
+    color: black;
+    margin: 0 0 10px 0;
+}
+
+.hiddenDisplay {
+    font-size: 1rem;
+    color: black;
+    margin: 10px;
+}
+
+.cryDisplay {
+    font-size: 0.75rem;
+    margin: 10px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 75px;
+    overflow-y: auto;
+    width: 150px;
+    font-size: 1rem;
+}
+
+#suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#suggestions li:hover {
+    background-color: #f0f0f0;
+}
